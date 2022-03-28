@@ -228,39 +228,57 @@ rgba(157, 104, 211, 1) =>  rgba(176, 152, 217, 1) purple
 rgba(209, 87, 150, 1) => pink rgba(223, 132, 209, 1)
 rgba(223, 84, 82, 1) => rgba(234, 135, 140, 1) red
 */
+
 .notion-dark-theme *[style*="color:rgba(115, 115, 115, 1)"],
 .notion-dark-theme *[style*="color: rgb(115, 115, 115)"] {
   color: var(--gray) !important;
+  -webkit-text-fill-color: currentColor
 }
+
 .notion-dark-theme *[style*="color:rgba(186, 133, 111, 1)"],
 .notion-dark-theme *[style*="color: rgb(186, 133, 111)"] {
   color: var(--brown) !important;
+  -webkit-text-fill-color: currentColor
 }
+
 .notion-dark-theme *[style*="color:rgba(199, 125, 72, 1)"],
 .notion-dark-theme *[style*="color: rgb(199, 125, 72)"] {
   color: var(--orange) !important;
+  -webkit-text-fill-color: currentColor
 }
+
 .notion-dark-theme *[style*="color:rgba(202, 152, 73, 1)"],
 .notion-dark-theme *[style*="color: rgb(202, 152, 73)"] {
   color: var(--yellow) !important;
+  -webkit-text-fill-color: currentColor
 }
+
 .notion-dark-theme *[style*="color:rgba(82, 158, 114, 1)"],
 .notion-dark-theme *[style*="color: rgb(82, 158, 114)"] {
   color: var(--green) !important;
+  -webkit-text-fill-color: currentColor
 }
+
 .notion-dark-theme *[style*="color:rgba(94, 135, 201, 1)"],
 .notion-dark-theme *[style*="color: rgb(94, 135, 201)"] {
   color: var(--blue) !important;
+  -webkit-text-fill-color: currentColor
 }
+
 .notion-dark-theme *[style*="color:rgba(157, 104, 211, 1)"],
 .notion-dark-theme *[style*="color: rgb(157, 104, 211)"] {
   color: var(--purple) !important;
+  -webkit-text-fill-color: currentColor
 }
+
 .notion-dark-theme *[style*="color:rgba(209, 87, 150, 1)"],
 .notion-dark-theme *[style*="color: rgb(209, 87, 150)"] {
   color: var(--pink) !important;
+  -webkit-text-fill-color: currentColor
 }
+
 .notion-dark-theme *[style*="color:rgba(223, 84, 82, 1)"],
 .notion-dark-theme *[style*="color: rgb(223, 84, 82)"] {
   color: var(--red) !important;
+  -webkit-text-fill-color: currentColor
 }
